@@ -1,0 +1,20 @@
+<config>
+  <!-- Slot Control -->
+  <pause-on-start v='true'/> <!-- pauses when started, needs to be activated through the webinterface every time the system is restarted -->
+  <power v='MEDIUM'/> <!-- so the GPU will be used -->
+
+  <!-- User Information -->
+  <passkey v='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'/>
+  <team v='xxxxxx'/>
+  <user v='Alexander_Krug'/>
+
+  <!-- Folding Slots -->
+  
+  <slot id='0' type='CPU'/> <!-- uses all cores -->
+
+  <slot id='1' type='GPU'> <!-- uses the GPU -->
+    <pci-bus v='7'/>
+    <pci-slot v='0'/>
+  </slot>
+
+</config>
