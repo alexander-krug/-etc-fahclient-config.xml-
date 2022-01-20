@@ -1,0 +1,19 @@
+<config>
+  <!-- Slot Control -->
+  <pause-on-start v='false'/>
+  <power v='MEDIUM'/>
+
+  <!-- User Information -->
+  <passkey v='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'/>
+  <team v='xxxxxx'/>
+  <user v='Alexander_Krug'/>
+
+  <!-- Folding Slots -->
+  
+  <gpu v='false'/>  <!-- If true, this will try to autoconfigure GPUs -->
+
+  <slot id='0' type='CPU'>
+    <cpus v='6'/>
+  </slot>
+
+</config>
